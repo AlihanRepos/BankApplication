@@ -1,0 +1,17 @@
+Tokuç Bank Uygulama Klıvazu
+
+1)Giriş SAyfası,Kaydol sayfası,Kontrol Paneli,Hesap Silme ve Güncelleme işlemleri
+Sayfaları display none özelleği kullanarak sayfalar arasında geçiş yaptım.
+2)Giriş Sayfası
+Oluşturduğum dizi içerisinde tc ve şifre var dogru ise login yapabilirsiniz.
+3)Kaydol Sayfası
+Tekil olarak tc kullandım.Tc hekesde farklı olacağı için her tc bir hesap oluşturacaktır.(userid mantığında)
+Burada 18 yaşından büyük ve 11 hane Tc girmeniz gerekmektedir.
+4)Kontrol Paneli 
+para yatırma,para çekme işlemleri anlık hesaba etki eder ve hesap özetine düşer.Hesap özeti kullancının girip  çıkmasına 
+bağımsız olucak şekilde o tc ile bağımlıdır.Ve Hesap Silmedikçe o kullanıcaya sürekli olarak görüntülenir.
+Para Havale kısmında gönderceğiniz tc numarası sistemde kayıtlı olmaktadır.Bunun için farklı bir hesap oluşurup o hesabın
+tc sini girerseniz ancak öyle para gönderebilirsiniz
+5)Hesap Sil ve Güncelle
+Burda ad soyad yaş güncelleyebilirsiniz fakat tc tekil olduğundan güncellme hakkı tanımadım.
+Tabi güncelleme işlemleride yine yaş ve şifre en az 6 hane olucak şekilde yine kontrol durumunda.

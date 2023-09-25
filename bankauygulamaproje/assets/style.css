@@ -1,0 +1,302 @@
+/* Tüm Döküman Etki Start*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/arkaplan1.jpg);
+    background-position:center ;
+    background-size: cover;
+}
+/* Tüm Döküman Etki end */
+
+/* -------------------------Anasayfa Start---------------------- */
+.anasayfa{
+    
+    height: 100vh;
+    
+  
+
+}
+.anasayfa .header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.357);
+    height: 100px;
+    align-items: center;
+    
+}
+.anasayfa .header .banklogo{
+    height: 80px;
+   
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.anasayfa .main{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.anasayfa .main .card{
+    padding: 40px;
+    color: white;
+    background-color: rgba(83, 108, 131, 0.63);
+    justify-content: center;
+    align-items: center;
+}
+
+.anasayfa .main .card h2{
+    font-family: 'Alkatra', cursive;
+   
+    font-size: 60px;
+    text-align: center;
+    padding: 15px;
+    color:rgba(244, 244, 248, 0.655);
+    border: solid rgba(0, 0, 0, 0.538) 2px;
+    border-radius: 18px 18px;
+    background-color: rgba(83, 95, 131, 0.63);
+}
+
+.anasayfa .anasayfabutongiris{
+    font-family: 'Alkatra', cursive;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 255, 0.603);
+    width: 35%;
+    padding: 10px;
+}
+.anasayfa .anasayfabutonkaydol{
+    font-family: 'Alkatra', cursive;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.603);
+    width: 35%;
+    padding: 10px;
+}
+/* ------------------------------Anasayfa end -------------------*/
+/*----------------------------- kaydol Sayfası start-------------- */
+ .kaydolsayfa{
+    
+    height: 100vh;
+    display: none;
+
+    
+}
+
+.kaydolsayfa .main .card{
+    padding: 10px;
+    color: white;
+    background-color: rgba(83, 108, 131, 0.63);
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.kaydolsayfa .main .kaydolsayfalabel{
+    font-family: 'Alkatra', cursive;
+    margin-top: 6px;
+}
+
+.kaydolsayfa .kaydolsayfakaydolbuton{
+    font-family: 'Alkatra', cursive;
+    margin-top: 10px;
+    background-color: rgba(0, 255, 174, 0.603);
+    width: 35%;
+    padding: 10px;
+
+}
+.kaydolsayfa .kaydolsayfavazgecbuton{
+    font-family: 'Alkatra', cursive;
+    margin-top: 20px;
+    background-color: rgba(255, 98, 0, 0.603);
+    width: 35%;
+    padding: 10px;
+
+}
+.kaydolsayfa .main{
+    
+    justify-content: center;
+    align-items: center;
+}
+.kaydolsayfa .main h3{
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.543);
+
+}
+/*--------------------------------- kaydol Sayfası end-------------- */
+/*--------------------------------- Giriş yap Sayfası start-------------- */
+.girisyapsayfa{
+    height: 100vh;
+    display: none;
+
+    
+}
+.girisyapsayfa .main{
+    
+    justify-content: center;
+    align-items: center;
+
+}
+.girisyapsayfa .main .card{
+    padding: 10px;
+    color: white;
+    background-color: rgba(83, 108, 131, 0.63);
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+ 
+}
+.girisyapsayfa .main h3{
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.543);
+}
+.girisyapsayfa .girisyapsayfagirisbuton{
+    font-family: 'Alkatra', cursive;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 255, 0.603);
+    width: 35%;
+    padding: 10px;
+}
+.girisyapsayfa .girisyapsayfavazgecbuton{
+    font-family: 'Alkatra', cursive;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.603);
+    width: 35%;
+    padding: 10px;
+}
+.girisyapsayfa .girisyapsayfalabel{
+    margin-top: 10px;
+}
+/*--------------------------------- Giriş yap Sayfası end-------------- */
+/*--------------------------------- hesap sayfası start-------------- */
+
+
+.hesapsayfa{
+    height: fit-content;
+    display: none;
+    
+
+}
+.hesapsayfa .header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.357);
+    height: 70px;
+    align-items: center;
+    
+}
+.hesapsayfa  .banklogo{
+    height: 70px;
+   
+    padding-left: 40px;
+   padding-right: 40px;
+}
+.hesapsayfa .header h2{
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.543);
+
+}
+.hesapsayfa .card{
+    padding: 10px;
+    color: white;
+    background-color: rgba(83, 108, 131, 0.63);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.hesapsayfa .card h3{
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.865);
+    font-weight: bolder;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 20px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(83, 108, 131, 0.63);
+    width:80% ;
+    
+   
+
+}
+.hesapsayfalabel{
+    font-family: 'Alkatra', cursive;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.865);
+    margin: 5px;   
+}
+.hesapsayfainput{
+    margin-bottom: 10px;
+    width: 80%;
+}
+.hesabsayfabuton{
+    font-family: 'Alkatra', cursive;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.238);
+    padding: 10px;
+    width: 50%;
+
+}
+.hesapsayfa .hesapbilgileri table{
+    width: 80%;
+}
+
+.hesapsayfa .hesapozet h2{
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.543);
+    margin: 10px;
+}
+.hesapsayfa .hesapozet table{
+    background-color: aliceblue;
+
+}
+/*--------------------------------- hesap sayfası end-------------- */
+/*--------------------------------- hesap güncelleme start-------------- */
+.hesapguncellemesayfa{
+    height: 100vh;
+    display: none;
+}
+.hesapguncellemesayfa .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.hesapguncellemesayfa .main .card{
+    padding: 10px;
+    color: white;
+    background-color: rgba(83, 108, 131, 0.63);
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.hesapguncellemesayfa .main .kaydolsayfalabel{
+    font-family: 'Alkatra', cursive;
+    margin-top: 6px;
+}
+
+.hesapguncellemesayfa .hesapguncellemesayfaguncelleme{
+    font-family: 'Alkatra', cursive;
+    margin-top: 10px;
+    background-color: rgba(0, 255, 174, 0.603);
+    width: 35%;
+    padding: 10px;
+
+}
+.hesapguncellemesayfa .hesapguncellemesayfavazgec{
+    font-family: 'Alkatra', cursive;
+    margin-top: 20px;
+    background-color: rgba(255, 98, 0, 0.603);
+    width: 35%;
+    padding: 10px;
+
+}
+/*--------------------------------- hesap güncelleme end-------------- */
